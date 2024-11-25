@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+NSW:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font1{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-style: normal;
+}
+
+.font2{
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font3{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+:root{
+  /* --redcol : red; */
+  --redcol: rgb(222, 119, 46);
+  --grecol: rgb(70, 68, 68);
+
+}
+
+.nav ul li:hover{
+  scale: 1.2; 
+  color: rgb(77, 21, 2);
+  cursor: pointer;
+}
+.btn0:hover{
+  scale: 1.3;
+  /* color: white; */
+  
+}
+.word:hover{
+  /* scale: 1.3; */
+  font-size: 45px;
+  color:var(--redcol);
+}
+.erto:hover{
+  font-size: 45px;
+  color: white;
+}
+.with:hover{
+  font-size: 45px;
+  color: white;
+  
+}
+
+
+.cursor {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  position: fixed;
+  transition: 0.1s;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  /* cursor: url(assets/circle.svg),auto; */
+  mix-blend-mode: difference;
+  top:200px;
+  left: 200px;
+  z-index: 10;
+}
+.card{
+  width: 300px;
+  height: 150px;
+  background-color: var(--grecol);
+  border-radius: 10px;
+  background-size:cover; 
+}
+.document{
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+

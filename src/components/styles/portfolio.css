@@ -1,0 +1,63 @@
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    /* cursor: url(assets/circle.svg),auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: none;
+    /* mix-blend-mode: difference; */
+    /* cursor: none; */
+
+}
+
+.text{
+    height: 90%;
+    align-content: center;
+   
+}
+.sort{
+    color: aliceblue;
+    width: 50vw;
+    /* height: 300px; */
+    font-size: xx-large;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10PX;
+
+    
+}
+.photo {
+    /* background-image: url(myphoto/photoedit1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    /* cursor: pointer; */
+    
+}
+.sort section{
+    color: var(--redcol);
+    /* width: 100%; */
+    align-self: center;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+}
+
+.pera{
+    color: white;
+    font-size: xx-large;
+    align-self: center;
+}
+#element{
+    color: white;
+    color:var(--redcol);
+}

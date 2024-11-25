@@ -1,0 +1,58 @@
+.about{
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.abouthead{
+    color: aliceblue;
+    margin: 10px;
+
+}
+.education{
+    width: 90vw;
+    /* height: 50vh; */
+    background-color: var(--redcol);
+    border-radius: 20px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.education h2{
+    margin-top:10px;
+    text-align: center;
+}
+.education p{
+    margin:20px;
+    font-size: larger;
+}
+
+
+
+.achivment{
+    width: 90vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: var(--redcol);
+    border: 3px solid white;
+    color: white;
+    display:  flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.achivment h2{
+    margin: 10px;
+}
+.cards{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    /* flex-grow: 1; */
+    gap: 10px;
+    margin: 10px;
+}

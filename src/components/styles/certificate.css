@@ -1,0 +1,88 @@
+.certification{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+}
+.certification h2{
+    color: aliceblue;
+    /* margin: 10px; */
+
+}
+
+.certicates{
+    /* background-color: blueviolet; */
+    /* background-color: burlywood; */
+    width: 85vw;
+    height: 70vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center ;
+    gap: 25px;
+    overflow-x: scroll;
+    /* overflow-y: auto; */
+    scroll-behavior: smooth;
+    /* background-image: linear-gradient(red,yellow); */
+
+    padding: 20px;
+}
+.cerfi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    height: 350px;
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+    font-size: large;
+    background-color:  var(--redcol);
+    /* background-image: linear-gradient(yellow,red); */
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 40px rgb(201, 124, 9);
+    border: 3px solid white;
+
+    /* scrollbar-width: 0.5px; */
+}
+.cerfi img{
+    height: 250px;
+    width: 90%;
+    overflow: hidden;
+    
+}
+.cerfi iframe{
+    height: 250px;
+    width: 90%;
+    overflow: hidden;
+    border: none;
+}
+
+.certicates::-webkit-scrollbar {
+    /* width: ; Width of the scrollbar */
+    height: 5px;
+}
+
+.certicates::-webkit-scrollbar-track {
+    background: var(--bisq); /* Color of the scrollbar track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.certicates::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, var(--redcol), black); /* Gradient effect */
+    border-radius: 10px; /* Rounded corners */
+    /* border: 2px solid #f1f1f1; Border to add space between thumb and track */
+}
+
+.certicates::-webkit-scrollbar-thumb:hover {
+    background:yellow; /* Darker shade on hover */
+}
+
+.certicates::-webkit-scrollbar-corner {
+    background: transparent; /* Removes corner background */
+}

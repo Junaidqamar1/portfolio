@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* utility class */
+
+
+@media (max-width:700px) {
+  .navbar .nav{
+    display: none;
+  }
+  .welcome{
+    font-size: large;
+    left: 20%;
+  }
+  .sort{
+    font-size: large;
+  }
+  .pera{
+    font-size: large;
+
+  }
+  .education p{
+    font-size: medium;
+  }
+  .sec{
+    font-size: small;
+  }
+  .info{
+    font-size:x-small;
+    gap: 3px;
+  }
+  .det{
+    width: 100%;
+    gap: 5px;
+    margin: 5px;
+  }
+  
+}
+@media (max-width:500px) {
+  
+  
+  .sort{
+    flex-direction: column-reverse
+  }
+  .portfolio{
+    flex-direction: column-reverse;
+  }
+  .education p{
+    font-size: small;
+  }
+  .content{
+    flex-direction: column-reverse;
+  }
+  .info{
+    display: none;
+    flex-direction: row;
+    width: 98%;
+    height: 100%;
+  }
+  .contact{
+    flex-direction: column;
+  }
+}
+@media (max-width:450px) {
+  
+  .nav-name{
+    font-size: medium;
+  }
+  .welcome{
+    /* top: 30%; */
+    font-size:medium ;
+    left: 15%;
+
+  }
+  .education p{
+    font-size: smaller;
+  }
+  .skill{
+    height: 100%;
+  }
+  .skill-set{
+    flex-direction: column;
+  }
+  .skill-left{
+    width: 100%;
+  }
+  .skill-right{
+    width: 100%;
+    flex-direction: row;
+  }
+  .sec h3{
+    font-size: medium;
+  }
+  .sk{
+    width: 100%;
+  }
+  .range{
+    width: 40%;
+    height: 7px;
+  }
+  .other h3{
+    /* width: 100%; */
+    /* margin: 0px; */
+    font-size: small;
+  }
+  .form{
+    /* font-size: small; */
+    width: 90%;
+  }
+  .text{
+    gap: 5px;
+  }
+  .form h2{
+    width: 90%;
+  }
+}
+@media (max-width:350px) {
+  .btn0{
+    width: 80px;
+    font-size:medium;
+  }
+}
+@media (max-height:730px) {
+  .portfolio{
+    height: 60vh;
+  }
+}

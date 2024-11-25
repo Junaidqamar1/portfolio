@@ -1,0 +1,101 @@
+[
+    {
+        "title": "Spotify",
+        "url": "https://gaanasuno.freewebhostmost.com/",
+        "description": "Clone",
+        "images": [
+            "background-img/spotify01.png",
+            "background-img/spotify02.png",
+            "background-img/spotify03.png",
+            "background-img/spotify04.png"
+        ]
+    },
+    {
+        "title": "Netflix",
+        "url": "#",
+        "description": "Clone",
+        "images": [
+            "background-img/netflix01.png",
+            "background-img/netflix02.png",
+            "background-img/netflix03.png",
+            "background-img/netflix04.png"
+        ]
+    },
+    {
+        "title": "AI",
+        "url": "#",
+        "description": "using Python",
+        "images": [
+            "background-img/ai01.png",
+            "background-img/ai02.png",
+            "background-img/ai03.png",
+            "background-img/ai04.png"
+        ]
+    },
+    {
+        "title": "Snake Game",
+        "url": "#",
+        "description": "Python",
+        "images": [
+            "background-img/snake01.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Calculator",
+        "url": "#",
+        "description": "Python",
+        "images": [
+            "background-img/snake01.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Weather App",
+        "url": "#",
+        "description": "Python",
+        "images": [
+            "background-img/snake01.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Todo List",
+        "url": "#",
+        "description": "Python",
+        "images": [
+            "background-img/snake01.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Portfolio Website",
+        "url": "#",
+        "description": "Python",
+        "images": [
+            "background-img/snake01.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Blender",
+        "url": "#",
+        "description": "3D Models",
+        "images": [
+            "background-img/blender01.png",
+            "background-img/blender02.png",
+            "background-img/blender03.png",
+            "background-img/blender04.png"
+        ]
+    }
+]
