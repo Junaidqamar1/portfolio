@@ -131,8 +131,8 @@ code {
     font-size:medium;
   }
 }
-@media (max-height:730px) {
+/* @media (max-height:730px) {
   .portfolio{
     height: 60vh;
   }
-}
+} */
