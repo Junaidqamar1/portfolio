@@ -8,4 +8,4 @@ import './index.css';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
-
+// new cursoreffects.fairyDustCursor({ element: document.querySelector("#header") })
