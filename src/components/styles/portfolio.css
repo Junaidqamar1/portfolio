@@ -34,10 +34,49 @@
     /* background-image: url(myphoto/photoedit1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 50%;
     height: 100%;
     /* cursor: pointer; */
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: red; */
+   
+}
+.imgbox{
+    position: relative;
+}
+.photo img{
+    width: 40vw;
+    align-self: center;
+    border-radius: 20px;
+    border: 3px solid white;
+    /* z-index: 100; */
+    box-shadow: 2px 3px 40px white;
+}
+.tape1{
+    box-shadow: 2px 3px 40px white;
+    width: 200px;
+    height: 20px;
+    background-color: var(--redcol);
+    z-index: 100;
+    position: absolute;
+    top: 40px;
+    rotate: 45deg;
+    right: -50px;
+    border: 2px solid white;
+}
+.tape2{
+    box-shadow: 2px 3px 40px white;
+    width: 200px;
+    border: 2px solid white;
+    height: 20px;
+    background-color: var(--redcol);
+    z-index: 100;
+    position: absolute;
+    bottom: 40px;
+    rotate: 45deg;
+    left: -50px;
 }
 .sort section{
     color: var(--redcol);
@@ -60,4 +99,16 @@
 #element{
     color: white;
     color:var(--redcol);
+}
+@media (max-width:800px) {
+    .tape1{
+        width: 130px;
+        top: 20px;
+        right: -35px;
+    }
+    .tape2{
+        width: 130px;
+        bottom: 20px;
+        left: -35px;
+    }
 }

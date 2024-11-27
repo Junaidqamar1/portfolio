@@ -56,6 +56,13 @@ code {
   .portfolio{
     flex-direction: column-reverse;
   }
+  .photo{
+    width: 100vw;
+    justify-content: center;
+  }
+  .photo img{
+    width: 80vw;
+  }
   .education p{
     font-size: small;
   }
