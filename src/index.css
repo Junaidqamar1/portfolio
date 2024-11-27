@@ -49,9 +49,13 @@ code {
 }
 @media (max-width:500px) {
   
-  
+  .text{
+    width: 100vw;
+  }
   .sort{
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
+    width: 80%;
+    font-size: x-large;
   }
   .portfolio{
     flex-direction: column-reverse;
@@ -59,6 +63,7 @@ code {
   .photo{
     width: 100vw;
     justify-content: center;
+    align-items: center;
   }
   .photo img{
     width: 80vw;
