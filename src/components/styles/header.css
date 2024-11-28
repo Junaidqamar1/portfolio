@@ -126,6 +126,18 @@
     height: 30px;
     width: 30px;
     margin: 5px;
+    /* background-color: #8B0000; */
+}
+.link svg{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    /* background-color: #8B0000; */
+    transition: all 0.4s;
+}
+.link svg:hover{
+  transform: scale(1.5);
+  fill: orange;
 }
 .welcome{
     position: absolute;

@@ -10,9 +10,10 @@
 .abouthead{
     color: aliceblue;
     margin: 10px;
-
+    
 }
 .education{
+    box-shadow: 5px 5px 40px rgb(201, 124, 9);
     width: 90vw;
     /* height: 50vh; */
     background-color: var(--redcol);
@@ -20,12 +21,18 @@
     border: 3px solid white;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     color: white;
 }
 .education h2{
     margin-top:10px;
     text-align: center;
+    border: 2px solid white;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(121, 121, 121);
+    padding: 5px;
 }
 .education p{
     margin:20px;
@@ -43,10 +50,17 @@
     color: white;
     display:  flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px;box-shadow: 5px 5px 40px rgb(201, 124, 9);
 }
 .achivment h2{
+    align-self: center;
     margin: 10px;
+    text-align: center;
+    border: 2px solid white;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(121, 121, 121);
+    padding: 5px;
 }
 .cards{
     height: 100%;
@@ -55,4 +69,7 @@
     /* flex-grow: 1; */
     gap: 10px;
     margin: 10px;
+}
+.document{
+    padding-left: 30px;
 }

@@ -44,8 +44,15 @@ const About = () => {
       {/* skill section */}
       <Skill/>
       <div className="achivment" data-aos="fade-up">
-        <h2 className="font3">ACHIEVEMENT</h2>
-        <div className="document"></div>
+        <h2 className=" ach-head font3">ACHIEVEMENT</h2>
+        <div className="document">
+          <ul className=' ach-li font3'>
+            <li>Completed 50+ question on Leetcode</li>
+            <li>Completed 50+ question on Leetcode</li>
+            <li>Completed 50+ question on Leetcode</li>
+            <li>Completed 50+ question on Leetcode</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

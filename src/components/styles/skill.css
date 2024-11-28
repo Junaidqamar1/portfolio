@@ -13,6 +13,12 @@
 .skill h2{
     margin: 15px;
     align-self: center;
+    background-color: rgb(121, 121, 121);
+    border: 2px solid white;
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
 }
 .skill-set{
     display: flex;
@@ -52,7 +58,8 @@
     color: black;
     background-color: white;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid black;
+    padding: 2px;
     margin-left: 10px;
     margin-right: 10px;
 }
