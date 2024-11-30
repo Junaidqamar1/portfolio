@@ -33,11 +33,22 @@
         ]
     },
     {
-        "title": "Snake Game",
-        "url": "#",
+        "title": "SHOPEASY",
+        "url": "https://ecom-shop-easy.netlify.app/",
+        "description": "E-com Site",
+        "images": [
+            "background-img/ai01.png",
+            "background-img/ai02.png",
+            "background-img/ai03.png",
+            "background-img/ai04.png"
+        ]
+    },
+    {
+        "title": "Weather Forcast",
+        "url": "https://weatherj.netlify.app/",
         "description": "Python",
         "images": [
-            "background-img/snake01.png",
+            "background-img/weatherforcast.png",
             "background-img/snake02.png",
             "background-img/snake03.png",
             "background-img/snake04.png"
