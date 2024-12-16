@@ -184,6 +184,50 @@ button {
   .fillelipse:hover::after {
     transform:scale(1,1);
   }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   /* Slide Skew from the left */
+  .cross{
+    display: none;
+  }
+  .ham{
+    display: none;
+  }
  
+  @media (max-width:700px) {
+    
+    .ham{
+      display: block;
+      align-items: center;
+      justify-self: center;
+      align-self: center;
+      padding-right: 10px
+
+    }
+    .nav ul{
+      display: none;
+      background-image: linear-gradient(90deg,red,black);
+      color: white;
+      flex-direction: column;
+      gap:2px;
+      position: absolute;
+      top: 5px;
+      padding:20px;
+      padding-top: 0px;
+      border: 2px solid black;
+      transition: all 2s;
+
+    }
+    .nav ul li{
+      padding: 5px;
+      /* border: 1px solid black */
+    }
+    .cross{display: block;
+      padding: 0;
+    
+    }
+  }

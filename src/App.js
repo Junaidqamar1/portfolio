@@ -187,7 +187,18 @@ async function main() {
             const targetsec = document.querySelector(".contact")
             targetsec.scrollIntoView({ behavior: "smooth" });
         })
+        
 
+        document.querySelector(".ham").addEventListener("click", () => {
+            document.querySelector(".nav ul").style.display = "block";
+            console.log("Navigation menu displayed");
+          });
+          
+          document.querySelector(".cross").addEventListener("click", () => {
+            document.querySelector(".nav ul").style.display = "none";
+            console.log("Navigation menu hidden");
+          });
+          
 
 
 

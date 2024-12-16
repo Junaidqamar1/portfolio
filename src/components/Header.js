@@ -38,7 +38,11 @@ function Header() {
           JUNAID<span className="font2 change-col">.portfolio</span>
         </div>
         <div className="nav">
+        <img className='ham' src="hamburger.svg" alt=""/>
           <ul>
+            <li className='cross'>
+            <img src="cross.svg" alt=""/>
+            </li>
             <li className="homebtn" data-aos="fade-left" style={{ transition: 'all 0.4s' }}>
               Home
             </li>
@@ -70,6 +74,12 @@ function Header() {
               Contact
             </li>
           </ul>
+          {/* <ul className='sec-nav'>
+            <li className=''>Home</li>
+            <li className=''>About</li>
+            <li className=''>Project</li>
+            <li className=''>Contact</li>
+          </ul> */}
         </div>
       </div>
       <div className="left">
@@ -122,6 +132,12 @@ function Header() {
       </div>
     </div>
   );
+  document.getElementsByClassName("ham").addEventListener("click",()=>{
+    document.getElementsByClassName("sec-nav").style.diplay="block"
+  })
+  document.getElementsByClassName("").addEventListener("click",()=>{
+    document.getElementsByClassName("sec-nav").style.diplay="block"
+  })
 }
 
 export default Header;

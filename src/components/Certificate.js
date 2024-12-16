@@ -21,7 +21,7 @@ const Certificate = () => {
                 card.classList.add('certi-card');
                 // <img src="background-img/ai01.png" alt="">
                 const cardHTML = `
-                          <div class="cerfi font3" onclick="opencertificate('certificates/${certificate}.pdf')">
+                          <div class="cerfi font3" onclick="${opencertificate}('certificates/${certificate}.pdf')">
                         <img src="New folder/${certificate}.png" alt="">
                         <h4>${certificate}</h4>
                     </div>
@@ -34,6 +34,9 @@ const Certificate = () => {
             console.error('There was a problem with the fetch operation:', error);
           });
       }, []);
+      function opencertificate(url) {
+        window.open(url); // Opens the certificate in a new tab
+    }
     
   return (
     <div className='certification'>

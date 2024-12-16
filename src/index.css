@@ -16,9 +16,7 @@ code {
 
 
 @media (max-width:700px) {
-  .navbar .nav{
-    display: none;
-  }
+  
   .welcome{
     font-size: large;
     left: 20%;
@@ -82,6 +80,13 @@ code {
   }
   .contact{
     flex-direction: column;
+  }
+  .project-sec{
+    height: 50vh;
+  }
+  .card{
+    min-width: 16rem;
+    height: 22rem;
   }
 }
 @media (max-width:450px) {
