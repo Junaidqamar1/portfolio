@@ -3,6 +3,11 @@ import "./styles/certificate.css"
 
 const Certificate = () => {
     useEffect(() => {
+
+      function opencertificate(url) {
+        window.open(url); // Opens the certificate in a new tab
+    }
+    
         fetch('/certificates.json') // Make sure this path is correct
           .then(response => {
             if (!response.ok) {
@@ -21,10 +26,10 @@ const Certificate = () => {
                 card.classList.add('certi-card');
                 // <img src="background-img/ai01.png" alt="">
                 const cardHTML = `
-                          <div class="cerfi font3" onclick="${opencertificate}('certificates/${certificate}.pdf')">
+                          <a class="cerfi font3" href="certificates/${certificate}.pdf ">
                         <img src="New folder/${certificate}.png" alt="">
                         <h4>${certificate}</h4>
-                    </div>
+                    </a>
                     `;
                 card.innerHTML = cardHTML;
                 container.appendChild(card);

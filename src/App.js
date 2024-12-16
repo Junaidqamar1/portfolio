@@ -187,6 +187,10 @@ async function main() {
             const targetsec = document.querySelector(".contact")
             targetsec.scrollIntoView({ behavior: "smooth" });
         })
+        document.querySelector(".btn2").addEventListener("click", () => {
+            const targetsec = document.querySelector(".portfolio")
+            targetsec.scrollIntoView({ behavior: "smooth" });
+        })
         
 
         document.querySelector(".ham").addEventListener("click", () => {

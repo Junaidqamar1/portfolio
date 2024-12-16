@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div className="form font3" >
                         <h2 className='font1 from-head'>CONTACT ME</h2>
-                    <form name="submit-to-google-sheet" className="submit-to-google-sheet" method="POST">
+                    <form name="submit-to-google-sheet" className="submit-to-google-sheet" >
                         <label>NAME : </label>
                         <input type="text" name="NAME" required />
                         <label>EMAIL : </label>
@@ -43,7 +43,7 @@ const Contact = () => {
                         <input type="number" name="PHONE" id="" />
                         <label>ABOUT : </label>
                         <input type="text" name="ABOUT" id="password" />
-                        <button className="glow-on-hover bet" type="button">submit</button>
+                        <button className="glow-on-hover bet" type='submit'>submit</button>
                     </form>
                     {/* <div class="link">
                         <a href="https://www.instagram.com/its_junaid_qamar/" target="_blank"> <img
