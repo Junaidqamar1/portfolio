@@ -37,10 +37,10 @@
         "url": "https://ecom-shop-easy.netlify.app/",
         "description": "E-com Site",
         "images": [
-            "background-img/ai01.png",
-            "background-img/ai02.png",
-            "background-img/ai03.png",
-            "background-img/ai04.png"
+            "background-img/shopeasy01.png",
+            "background-img/shopeasy02.png",
+            "background-img/shopeasy03.png",
+            "background-img/shopeasy04.png"
         ]
     },
     {
@@ -49,6 +49,39 @@
         "description": "Python",
         "images": [
             "background-img/weatherforcast.png",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Rock Papper Scissors",
+        "url": "https://rock-paperj.netlify.app/",
+        "description": "Python",
+        "images": [
+            "background-img/rock01.png",
+            "background-img/rock02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Translator",
+        "url": "https://translatorj.netlify.app/",
+        "description": "text-text, voice-text verse",
+        "images": [
+            "background-img/translator01",
+            "background-img/snake02.png",
+            "background-img/snake03.png",
+            "background-img/snake04.png"
+        ]
+    },
+    {
+        "title": "Expense Tracker",
+        "url": "https://expense-trackerj.netlify.app/",
+        "description": "text-text, voice-text verse",
+        "images": [
+            "background-img/expense01.png",
             "background-img/snake02.png",
             "background-img/snake03.png",
             "background-img/snake04.png"
