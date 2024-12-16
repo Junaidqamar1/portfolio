@@ -1,6 +1,6 @@
 .skill{
     width: 90vw;
-    height: 60vh;
+    /* height: 60vh; */
     background-color: var(--redcol);
     box-shadow: 5px 5px 40px rgb(201, 124, 9);
     border-radius: 20px;

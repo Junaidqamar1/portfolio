@@ -3,7 +3,7 @@ import './styles/project.css';
 import VanillaTilt from 'vanilla-tilt';
 
 const Project = () => {
-  
+
   useEffect(() => {
     fetch('/projects.json') // Make sure this path is correct
       .then(response => {
@@ -20,13 +20,24 @@ const Project = () => {
           card.classList.add('card');
 
           const projectHTML = `
-            <h2>
-              <a href="${project.url}" target="_blank">
-                ${project.title}
-                <p>(${project.description})</p>
-              </a>
-            </h2>
-            ${project.images.map(img => `<img src="${img}" alt="${project.title} image">`).join('')}
+           <img
+    class="card__background"
+    src="${project.image}"
+    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+    width="1920"
+    height="2193"
+  />
+          <div class="card__content | flow">
+    <div class="card__content--container | flow">
+      <h2 class="card__title">${project.title}</h2>
+      <p class="card__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+        labore laudantium deserunt fugiat numquam.
+      </p>
+    </div>
+    <a href="${project.url}"><button class="card__button">visit</button></a>
+  </div>
+           
           `;
 
           card.innerHTML = projectHTML;
