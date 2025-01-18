@@ -31,8 +31,7 @@ const Project = () => {
     <div class="card__content--container | flow">
       <h2 class="card__title">${project.title}</h2>
       <p class="card__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-        labore laudantium deserunt fugiat numquam.
+      ${project.description}
       </p>
     </div>
     <a href="${project.url}"><button class="card__button">visit</button></a>

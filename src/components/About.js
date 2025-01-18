@@ -47,10 +47,11 @@ const About = () => {
         <h2 className=" ach-head font3">ACHIEVEMENT</h2>
         <div className="document">
           <ul className=' ach-li font3'>
-            <li>Completed 50+ question on Leetcode</li>
-            <li>Completed 50+ question on Leetcode</li>
-            <li>Completed 50+ question on Leetcode</li>
-            <li>Completed 50+ question on Leetcode</li>
+          <li>➢   Developed 30+ web applications and sites as part of personal and academic projects.</li>
+          <li>➢   Solved 100+ LeetCode problems to strengthen algorithmic problem-solving skills.</li>
+          <li>➢   Actively participated in 10+ events and hackathons to enhance coding and teamwork experience.</li>
+          <li>➢   Acquired 10+ certifications from recognized platforms</li>
+      
           </ul>
         </div>
       </div>

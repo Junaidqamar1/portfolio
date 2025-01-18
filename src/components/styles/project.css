@@ -129,6 +129,7 @@ p {
   object-fit: cover;
   max-width: 100%;
   height: 100%;
+  background-color: aqua;
   overflow: hidden;
 
 }
@@ -138,7 +139,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-self: flex-end; */
+  width: 100%;
+  align-self: flex-end;
   /* height: 55%; */
   padding: 12% 1.25rem 1.875rem;
   background: linear-gradient(
@@ -177,7 +179,7 @@ p {
   font-variant: small-caps;
   font-weight: bold;
   border-radius: 0.45em;
-  border: none;
+  border: 2px solid white;
   background-color: var(--brand-color);
   font-family: var(--font-title);
   font-size: 1.125rem;
@@ -191,9 +193,9 @@ p {
 
 @media (any-hover: hover) and (any-pointer: fine) {
   .card__content {
-    transform: translateY(62%);
+    transform: translateY(30%);
     transition: transform 500ms ease-out;
-    transition-delay: 500ms;
+    transition-delay: 300ms;
   }
 
   .card__title::after {

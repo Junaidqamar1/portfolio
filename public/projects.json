@@ -2,79 +2,121 @@
     {
         "title": "Spotify",
         "url": "https://gaanasuno.freewebhostmost.com/",
-        "description": "Clone",
+        "description": "A Spotify clone showcasing music streaming interface.",
         "image": "background-img/spotify01.png"
-    },
-    {
-        "title": "Netflix",
-        "url": "#",
-        "description": "Clone",
-        "image": "background-img/netflix01.png"
-    },
-    {
-        "title": "AI",
-        "url": "#",
-        "description": "using Python",
-        "image": "background-img/ai01.png"
     },
     {
         "title": "SHOPEASY",
         "url": "https://ecom-shop-easy.netlify.app/",
-        "description": "E-com Site",
+        "description": "A user-friendly e-commerce platform.",
         "image": "background-img/shopeasy01.png"
     },
     {
-        "title": "Weather Forcast",
+        "title": "Memory Game",
+        "url": "https://memorygamej.netlify.app/",
+        "description": "A simple card-flipping memory game.",
+        "image": "background-img/memory-game.png"
+    },
+    {
+        "title": "Netflix",
+        "url": "#",
+        "description": "A Netflix clone design.",
+        "image": "background-img/netflix01.png"
+    },
+    {
+        "title": "Weather Forecast",
         "url": "https://weatherj.netlify.app/",
-        "description": "Python",
+        "description": "A weather forecasting app using Python.",
         "image": "background-img/weatherforcast.png"
     },
     {
-        "title": "Rock Papper Scissors",
+        "title": "Rock Paper Scissors",
         "url": "https://rock-paperj.netlify.app/",
-        "description": "Python",
+        "description": "A Python-based Rock Paper Scissors game.",
         "image": "background-img/rock01.png"
+    },
+    {
+        "title": "Tic Tac Toe",
+        "url": "https://tictac-junaid.netlify.app/",
+        "description": "Play the classic Tic Tac Toe game.",
+        "image": "background-img/tictactoe.png"
     },
     {
         "title": "Translator",
         "url": "https://translatorj.netlify.app/",
-        "description": "text-text, voice-text verse",
-        "image": "background-img/translator01"
+        "description": "A translator supporting text and voice conversions.",
+        "image": "background-img/translator01.png"
     },
     {
         "title": "Expense Tracker",
         "url": "https://expense-trackerj.netlify.app/",
-        "description": "text-text, voice-text verse",
+        "description": "Track expenses efficiently with this tool.",
         "image": "background-img/expense01.png"
     },
     {
         "title": "Calculator",
-        "url": "#",
-        "description": "Python",
-        "image": "background-img/snake01.png"
-    },
-    {
-        "title": "Weather App",
-        "url": "#",
-        "description": "Python",
-        "image": "background-img/snake01.png"
+        "url": "https://calculator-jun.netlify.app/",
+        "description": "A simple Python-based calculator.",
+        "image": "background-img/calc.png"
     },
     {
         "title": "Todo List",
-        "url": "#",
-        "description": "Python",
-        "image": "background-img/snake01.png"
+        "url": "https://to-do-listj.netlify.app/",
+        "description": "A Python-based To-do list manager.",
+        "image": "background-img/todo.png"
     },
     {
-        "title": "Portfolio Website",
+        "title": "Currency Converter",
+        "url": "https://currencyconverterj.netlify.app/",
+        "description": "Convert currencies with ease.",
+        "image": "background-img/curr-conv.png"
+    },
+    {
+        "title": "Data Speed Tracker",
+        "url": "https://netspeedj.netlify.app/",
+        "description": "Monitor your network data speed.",
+        "image": "background-img/data-speed.png"
+    },
+    {
+        "title": "QR Generator",
+        "url": "https://qrconvert.netlify.app/",
+        "description": "Generate custom QR codes instantly.",
+        "image": "background-img/QR-pic.png"
+    },
+    {
+        "title": "Temp Converter",
+        "url": "https://temp-convertj.netlify.app/",
+        "description": "Convert temperatures easily.",
+        "image": "background-img/temp-con.png"
+    },
+    {
+        "title": "Word Counter",
+        "url": "https://word-counterj.netlify.app/",
+        "description": "Count words and characters in your text.",
+        "image": "background-img/word-cont.png"
+    },
+    {
+        "title": "Notes",
+        "url": "https://notes-jun.netlify.app/",
+        "description": "Take and organize notes online.",
+        "image": "background-img/notes.png"
+    },
+    {
+        "title": "Drawing Pad",
+        "url": "https://drawingj.netlify.app/",
+        "description": "Draw and doodle on a digital canvas.",
+        "image": "background-img/draw.png"
+    },
+    {
+        "title": "AI",
         "url": "#",
-        "description": "Python",
-        "image": "background-img/snake01.png"
+        "description": "Showcasing AI projects created with Python.",
+        "image": "background-img/ai01.png"
     },
     {
         "title": "Blender",
         "url": "#",
-        "description": "3D Models",
+        "description": "3D models designed using Blender.",
         "image": "background-img/blender01.png"
     }
 ]
