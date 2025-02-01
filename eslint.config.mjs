@@ -14,7 +14,13 @@ export default [
         ? "warn" // Downgrade 'no-unused-vars' to a warning in CI
         : "error", // Keep it as an error otherwise
     },
+    server: {
+      proxy: {
+          '/api': 'http://localhost:3000'
+      }
+  }
   },
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
+  
 ];
